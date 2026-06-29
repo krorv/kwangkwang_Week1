@@ -34,7 +34,7 @@ body{
     border-radius: 12px;       /* 모서리를 부드럽게 라운딩 (숫자가 클수록 더 둥글어져요) */
     padding: 50px;   
     margin:20px;
-    gap:20px;          /* 박스 내부 콘텐츠들과의 여백 */
+    gap:35px;          /* 박스 내부 콘텐츠들과의 여백 */
     
 }
 .main-content{
