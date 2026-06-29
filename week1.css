@@ -1,0 +1,61 @@
+:root{
+     --primary-color: #98bde2;
+    --secondary-color: #ecf0f1;
+    --accent-color: #5fabde;
+    --header-font: #102438;
+}
+body{
+    background-color:#f4f6f9;
+
+}
+.role-text{
+    color: #3498db;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.left-panel{
+    width: 300px;
+    height: 250px;
+    background-color: #ffffff; /* 박스 내부 배경은 순백색 */
+    border-radius: 12px;       /* 모서리를 부드럽게 라운딩 (숫자가 클수록 더 둥글어져요) */
+    padding: 50px;             /* 박스 내부 콘텐츠들과의 여백 */
+    margin:20px;
+    
+}
+.right-panel{
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    height: 250px;
+    background-color: #ffffff; /* 박스 내부 배경은 순백색 */
+    border-radius: 12px;       /* 모서리를 부드럽게 라운딩 (숫자가 클수록 더 둥글어져요) */
+    padding: 50px;   
+    margin:20px;
+    gap:20px;          /* 박스 내부 콘텐츠들과의 여백 */
+    
+}
+.main-content{
+    max-width: 2000;
+    background-color: #ffffff; /* 박스 내부 배경은 순백색 */
+    border-radius: 12px;       /* 모서리를 부드럽게 라운딩 (숫자가 클수록 더 둥글어져요) */
+    padding: 50px;             /* 박스 내부 콘텐츠들과의 여백 */
+    margin:20px;
+
+
+}
+.header{
+    display: flex;        
+    align-items: center;
+    gap: 20px;             
+    
+}
+.photo{
+    display: flex;
+    align-items:center ;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
